@@ -14,7 +14,7 @@
    Once the server starts, check the start log for the randomly generated password to login.
    
    You can also use the below Post Arguments:
-     -V, --version               output the version number
+    -V, --version               output the version number
 	--cert <value>
 	--cert-key <value>
 	-e, --extensions-dir <dir>  Set the root path for extensions.
