@@ -3,7 +3,7 @@
   <TemplateURL>https://github.com/cryystyy/docker-templates/blob/master/kurisu/coder.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Productivity</Category>
-  <Name>kurisu-coder</Name>
+  <Name>kurisu-coderServer</Name>
   <Description>
     Run VS Code on a remote server. https://coder.com 
   </Description>
