@@ -8,7 +8,26 @@
     Run VS Code on a remote server. https://coder.com 
   </Description>
   <Overview>
-   Run VS Code on a remote server. https://coder.com 
+   Run VS Code on a remote server. https://coder.com
+   
+   How to use:
+   Once the server starts, check the start log for the randomly generated password to login.
+   
+   You can also use the below Post Arguments:
+     -V, --version               output the version number
+	--cert <value>
+	--cert-key <value>
+	-e, --extensions-dir <dir>  Set the root path for extensions.
+	-d --user-data-dir <dir>    Specifies the directory that user data is kept in, useful when running as root.
+	--data-dir <value>          DEPRECATED: Use '--user-data-dir' instead. Customize where user-data is stored.
+	-h, --host <value>          Customize the hostname. (default: "0.0.0.0")
+	-o, --open                  Open in the browser on startup.
+	-p, --port <number>         Port to bind on. (default: 8443)
+	-N, --no-auth               Start without requiring authentication.
+	-H, --allow-http            Allow http connections.
+	-P, --password <value>      Specify a password for authentication.
+	--disable-telemetry         Disables ALL telemetry.
+	--help                      output usage information
   </Overview>
   <Registry>https://hub.docker.com/r/codercom/code-server</Registry>
   <GitHub>https://github.com/cdr/code-server</GitHub>
@@ -38,5 +57,4 @@
   <DonateText>If you appreciate my work, then please consider buying me a coffee</DonateText>
   <DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=8PNZ57UF76FA8&amp;source=url</DonateLink>
   <DonateImg>https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif</DonateImg>
-  <PostArguments>--allow-http --no-auth</PostArguments>
 </Containers>
