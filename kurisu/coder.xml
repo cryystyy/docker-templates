@@ -12,7 +12,7 @@
   </Overview>
   <Registry>https://hub.docker.com/r/codercom/code-server</Registry>
   <GitHub>https://github.com/cdr/code-server</GitHub>
-  <Repository>cdr/code-server</Repository>
+  <Repository>codercom/code-server</Repository>
   <Project>https://coder.com/</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
