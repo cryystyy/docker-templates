@@ -68,4 +68,5 @@
   <DonateText>If you appreciate my work, then please consider buying me a coffee</DonateText>
   <DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=8PNZ57UF76FA8&amp;source=url</DonateLink>
   <DonateImg>https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif</DonateImg>
+  <ExtraParams>--allow-http --no-auth</ExtraParams>
 </Containers>
